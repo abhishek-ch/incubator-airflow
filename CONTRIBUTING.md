@@ -92,7 +92,7 @@ cd /airflow/
 
 # Install Airflow with all the required dependencies,
 # including the devel which will provide the development tools
-pip install -e ".[hdfs,hive,druid,devel]"
+pip install -e ".[libsasl2-dev,hdfs,hive,druid,devel]"
 
 # Init the database
 airflow initdb
